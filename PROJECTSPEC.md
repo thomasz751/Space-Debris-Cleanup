@@ -13,6 +13,8 @@ Data on Debris
 - Around 900000 between 1cm and 10cm (dangerous)
 - 128 million between 1mm and 1cm
 - Around 27000 pieces of space junk
+- Projected that by 2035 7 in 10000 planes will be struck by space debris
+- 
 
 
 First we have to come up with ideas for the satellite
