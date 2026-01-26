@@ -1,0 +1,29 @@
+Using kessler in our modeling
+- Spatial density can be used as we comply with kinetic gas theory
+- We use probability of satellites location instead of predicted location
+- flux = spatial density x velocity
+- Number of collisions = flux x area x time
+- Assuming idealized kepler orbits
+    - anyway we could use ML to simulate slight deviations in order to get a more cohesive modeling???
+    - Could factor in the left out assumptions of atmospheric drag, non-spherical gravity, and gravity of sun and moon
+- Our probability function changes with time
+    - slower the velocity more time in area, higher probability of getting hit
+    - Time spent argument
+- Function with latitude
+  - Dont spend the same time at all altitudes
+  - Spend more time near turning altitudes
+  - Linger near max incline
+  - Rush through equatorial orbits
+  - Lambda is latitude analog
+  - No preferred longitude
+- Satellite cloud 
+  - denser where satellites slow up around turning altitudes
+- We get 3 seperate PDF's that match kesslers equations
+- Collision Density model
+- Velocity components
+  - Component along track
+  - North south velocity
+  - Collision probability relates to relative velocity
+  - Damage severity main issue
+  - 
+

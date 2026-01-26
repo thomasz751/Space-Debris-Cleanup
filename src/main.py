@@ -5,6 +5,26 @@ from src.simulation.monte_carlo import run_portfolio, MissionParams
 from src.simulation.mission import AttemptParams
 from src.simulation.loss import LossParams
 
+from src.risk.config import default_risk_config
+from src.risk.simulation import run_simulation
+
+cfg = default_risk_config()
+results = run_simulation(cfg)
+
+# quick summary
+from collections import Counter
+outcomes = Counter(r.outcome for r in results)
+avg_loss = sum(r.loss for r in results) / len(results)
+
+print("=== Outcomes ===")
+for k,v in outcomes.items():
+    print(k, v/len(results))
+
+print("\nE[Loss]:", round(avg_loss, 2))
+
+
+
+
 def var(x: np.ndarray, p: float) -> float:
     return float(np.quantile(x, p))
 
