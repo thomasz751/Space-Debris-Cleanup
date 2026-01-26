@@ -41,3 +41,14 @@ We must pick a class of debris
 - Most powerful would probably be a cheap way to grab big debris
 - Could do a way to catch lots of debris as well
 - Most likely needs to be debris that is harmful sized
+
+Debris Breakdown System
+- Whipple shield inspiration
+- multilayered shield which breaks down debris into non-harmful size when it comes in contact
+- not a full idea but could impliment idea into other design
+
+Artifical Gravity (?)
+- studies show artificial gravity is possible through rotational force
+- could use to attract pieces of debris to a single place
+- only problem is we would probably have to actually invent articial gravity
+
