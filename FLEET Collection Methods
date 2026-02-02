@@ -1,0 +1,73 @@
+Magnetism
+- Drone uses strong magnetic material to coerce debris to desired containment
+- Not too expensive (Neodymium)
+- Not too hard to integrate
+- CON: Only a small percentage of space debris is actually magnetic, given Al, Al2O3, Ti, Fe, Cu, and Ag, only one of those is magnetic
+
+Net Deployment
+- Deploy net (w/ counter force to keep stable) to "grab" debris
+- can reel in material to compartment on drone, or just drag along
+- Net material must be able to withstand space conditions
+- CON: joey said this would be difficult
+
+Robot Arm(s)
+- Mechanically and Physcially intensive
+- kinematics(forward, and inverse), Jacobian matrix
+- Mechanical components: Base and arm structre, joints, actuator, end-effector
+- Feedback control
+- Collision Avoidance
+- Algorithms and programming
+- Could build and program physcial model of arm
+- Personally think this would be most fun
+- CON: Probably more time intensive and will require more work
+
+Harpoon/Tether
+- Long range projectile
+- Pierces debris and reels it in
+- Requires propulsion system to fire projectile (compressed air? gas fuel?)
+- Also means it needs a couteractive force to keep steady
+- CON: could shatter debris(i assume you know why thats bad), and could miss the debris entirely(also bad)
+
+Gecko Adhesives
+- Van der Waals forces
+- Microscopic hairs create atomic-level suction that can be "turned on and off" when angling pad a certain way
+- Low level of force required
+- Controlled contact
+- Better for smooth debris
+- CON: probably out of our depth for this one
+
+Ion Beam / Gas Shepherding
+- Ion beam "blows" onto objects to move them out of orbit
+- Avoids grappling with tumbling debris
+- CON: Expensive and inefficient, and maybe too complicated
+
+- Ambient gas alternative
+  - uses thin, ambient, atmospheric gases in LEO as propellant instead of lugging around heavy fuel tanks
+  - Intercepts natural gas, ionizes it using electron cloud in ionization chamber, and accelerates it towards the object using an electrostatic grid
+  - Mission liespan is as long as the satellites(drones) components (meaning it doesnt rely on fuel), making it able to move between many different targets
+- CON: again, probably too complicated
+
+Inflatable Funnel
+- Lightweight, expandable cone/funnel for debris to drift into
+- Must calculate for a controlled capture
+- CON: because, it is prone to punctures and has a general durability concern
+
+Electrostatic Attraction
+- Can generate and maintain strong electric charges in space (no air to mess it up)
+- Charge drone to high coltage to create electric field to attract conductive debris w/ opposite charge or induced charges in nuetrally charged pieces
+- How it works:
+  - drone uses electron gun/ion emitter to charge itself
+  - Nearby debris w/ natrual charge from space plasma effects or drone's field induces charge seperation
+  - Electrostatic force pulls objects w/in grabbing or collecting disatance
+  - Debris "sticks" to charged surface through electrostatic adhesion
+- Works on conductive metals (most debris)
+- Contactless attraction, safer when thinking about collisions
+- No propellant needed
+- Can attract multiple things
+
+- Things to consider (not CONs but WORRYs):
+  - Power management
+  - Charge management
+  - Non-conductive materials (plastics and other composites)
+  - Space plasma effects (like solar wind) can degrade electric fields
+  - Discharge risks when retrieving things to drone
