@@ -4,23 +4,7 @@ import matplotlib.pyplot as plt
 from src.simulation.monte_carlo import run_portfolio, MissionParams
 from src.simulation.mission import AttemptParams
 from src.simulation.loss import LossParams
-
-from src.risk.config import default_risk_config
-from src.risk.simulation import run_simulation
-
-cfg = default_risk_config()
-results = run_simulation(cfg)
-
-# quick summary
-from collections import Counter
-outcomes = Counter(r.outcome for r in results)
-avg_loss = sum(r.loss for r in results) / len(results)
-
-print("=== Outcomes ===")
-for k,v in outcomes.items():
-    print(k, v/len(results))
-
-print("\nE[Loss]:", round(avg_loss, 2))
+from src.simulation.debris_environment import DebrisEnvParams
 
 
 
@@ -40,8 +24,9 @@ def main():
     mission = MissionParams(years=3, attempts_per_year=40)
     attempt = AttemptParams(p_success=0.94, p_abort=0.05, p_catastrophic=0.01)
     loss_params = LossParams(insured_value=50_000_000.0)
+    env_params = DebrisEnvParams()
 
-    df = run_portfolio(n_sats, seed, mission, attempt, loss_params)
+    df = run_portfolio(n_sats, seed, mission, attempt, loss_params, env_params)
     losses = df["loss"].to_numpy()
 
     p = 0.99

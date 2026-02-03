@@ -52,3 +52,7 @@ Artifical Gravity (?)
 - could use to attract pieces of debris to a single place
 - only problem is we would probably have to actually invent articial gravity
 
+If we have a fleet that can capture dead satellites we can be paid to re capture sats from companys who want their stuff back
+BOOOMMMMMMM
+Crazy tech cuz then we could have multiple sources to make positive cash flow
+ESPECIALLY if regulation gets implemented on space
