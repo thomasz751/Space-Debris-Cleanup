@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+from src.simulation.mission_cycle import CycleParams
 from src.simulation.monte_carlo import run_portfolio, MissionParams
 from src.simulation.mission import AttemptParams
 from src.simulation.loss import LossParams
@@ -22,11 +23,11 @@ def main():
     seed = 42
 
     mission = MissionParams(years=3, attempts_per_year=40)
-    attempt = AttemptParams(p_success=0.94, p_abort=0.05, p_catastrophic=0.01)
-    loss_params = LossParams(insured_value=50_000_000.0)
     env_params = DebrisEnvParams()
+    cycle_params = CycleParams(env_params=env_params)
+    loss_params = LossParams(insured_value=50_000_000.0)
 
-    df = run_portfolio(n_sats, seed, mission, attempt, loss_params, env_params)
+    df = run_portfolio(n_sats, seed, mission, cycle_params, loss_params, env_params)
     losses = df["loss"].to_numpy()
 
     p = 0.99
@@ -45,6 +46,8 @@ def main():
     print(f"TVaR({p}): {tv:,.0f}")
     print("\n=== Premium (TVaR + 10% load) ===")
     print(f"Premium:   {premium:,.0f}")
+    print("\nAvg D_end:", df["D_end"].mean())
+    print("Avg mass_kg:", df["mass_kg"].mean())
 
     plt.figure()
     plt.hist(losses, bins=60)
