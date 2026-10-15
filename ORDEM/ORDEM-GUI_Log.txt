@@ -1,0 +1,69 @@
+2/18/2026 11:39:31 AM  (ORDEM 3.2) - New Log Started
+
+2/18/2026 11:39:31 AM  (ORDEM 3.2) - Project Path = C:\Users\Thoma\Documents\Space-Debris-Cleanup\.venv
+
+2/18/2026 11:39:31 AM  (ORDEM 3.2) - New project started, values have been loaded.
+  Project Values: 
+     Spacecraft Observation Year: 2026
+     Spacecraft Use Axis Orbit Type: false
+     Spacecraft Perigee (km): 500
+     Spacecraft Apogee (km): 600
+     Spacecraft Semi-Major Axis (km): 6778.136
+     Spacecraft Eccentricity (0-1): 1E-08
+     Spacecraft Inclination (deg): 97.9
+     Spacecraft Use Random ArgOfPerigee: True  (Ignore next line)
+     Spacecraft Arg. Of Perigee (deg): 0
+     Spacecraft Use Random RAAN: True  (Ignore next line)
+     Spacecraft RAAN (deg): 0
+     Spacecraft Igloo File: IGLOO_10x10x1.SIG
+     Radar Observation Year: 2016
+     Radar Latitude (deg): 42.62
+     Radar Azimuth (deg): 90
+     Radar Elevation (deg): 75
+     Radar Igloo File: ALT_50.TIG
+
+
+2/18/2026 11:39:31 AM  (ORDEM 3.2) - Project opened 
+  Project Values: 
+     Spacecraft Observation Year: 2026
+     Spacecraft Use Axis Orbit Type: false
+     Spacecraft Perigee (km): 500
+     Spacecraft Apogee (km): 600
+     Spacecraft Semi-Major Axis (km): 6778.136
+     Spacecraft Eccentricity (0-1): 1E-08
+     Spacecraft Inclination (deg): 97.9
+     Spacecraft Use Random ArgOfPerigee: True  (Ignore next line)
+     Spacecraft Arg. Of Perigee (deg): 0
+     Spacecraft Use Random RAAN: True  (Ignore next line)
+     Spacecraft RAAN (deg): 0
+     Spacecraft Igloo File: IGLOO_10x10x1.SIG
+     Radar Observation Year: 2016
+     Radar Latitude (deg): 42.62
+     Radar Azimuth (deg): 90
+     Radar Elevation (deg): 75
+     Radar Igloo File: ALT_50.TIG
+
+
+2/18/2026 11:39:40 AM  (ORDEM 3.2) - The Spacecraft Model started 
+  Project Values: 
+     Spacecraft Observation Year: 2026
+     Spacecraft Use Axis Orbit Type: false
+     Spacecraft Perigee (km): 500
+     Spacecraft Apogee (km): 600
+     Spacecraft Semi-Major Axis (km): 6928.135
+     Spacecraft Eccentricity (0-1): 0.007217
+     Spacecraft Inclination (deg): 97.9
+     Spacecraft Use Random ArgOfPerigee: True  (Ignore next line)
+     Spacecraft Arg. Of Perigee (deg): 0
+     Spacecraft Use Random RAAN: True  (Ignore next line)
+     Spacecraft RAAN (deg): 0
+     Spacecraft Igloo File: IGLOO_10x10x1.SIG
+     Radar Observation Year: 2016
+     Radar Latitude (deg): 42.62
+     Radar Azimuth (deg): 90
+     Radar Elevation (deg): 75
+     Radar Igloo File: ALT_50.TIG
+
+
+2/18/2026 11:40:44 AM  (ORDEM 3.2) - Spacecraft Run Completed.  Return Code: 0
+

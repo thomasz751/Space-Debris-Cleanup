@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <ProjectValues>
+    <Version>3.2</Version>
+    <SpacecraftObservationYear>2026</SpacecraftObservationYear>
+    <SpacecraftOrbitTypeAxis>false</SpacecraftOrbitTypeAxis>
+    <SpacecraftPerigee>500</SpacecraftPerigee>
+    <SpacecraftApogee>600</SpacecraftApogee>
+    <SpacecraftAxis>6928.135</SpacecraftAxis>
+    <SpacecraftEccentricity>0.007217</SpacecraftEccentricity>
+    <SpacecraftInclination>97.9</SpacecraftInclination>
+    <SpacecraftRandomArg>true</SpacecraftRandomArg>
+    <SpacecraftArgOfPerigee>0</SpacecraftArgOfPerigee>
+    <SpacecraftRandomRaan>true</SpacecraftRandomRaan>
+    <SpacecraftRaan>0</SpacecraftRaan>
+    <RadarObservationYear>2016</RadarObservationYear>
+    <RadarLatitude>42.62</RadarLatitude>
+    <RadarAzimuth>90</RadarAzimuth>
+    <RadarElevation>75</RadarElevation>
+    <TleLine1 />
+    <TleLine2 />
+    <SpacecraftIglooFile>IGLOO_10x10x1.SIG</SpacecraftIglooFile>
+    <TelescopeIglooFile>ALT_50.TIG</TelescopeIglooFile>
+  </ProjectValues>
+</DocumentElement>
